@@ -29,7 +29,7 @@ This exam is coming soon in November 2020. CNCF provides us with CKS curriculum 
 1. [Setup appropriate OS level security domains e.g. using PSP, OPA, security contexts]()
    * [PSP (Pod Security Policy)](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
    * [OPA (Open Policy Agent)]()
-   * [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
+   * [Security Contextw](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 2. [Manage kubernetes secrets]()
    * [Concept](https://kubernetes.io/docs/concepts/configuration/secret/)
    * [Task](https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/)
