@@ -27,8 +27,8 @@ This exam is coming soon in November 2020. CNCF provides us with CKS curriculum 
 
 ### 20% - [Minimize Microservice Vulnerabilities]()
 1. [Setup appropriate OS level security domains e.g. using PSP, OPA, security contexts]()
-   * [PSP (Pod Security Policy)] (https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
-   * [OPA (Open Policy Agent)] ()
+   * [PSP (Pod Security Policy)](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
+   * [OPA (Open Policy Agent]()
    * [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 2. [Manage kubernetes secrets]()
    * [Concept](https://kubernetes.io/docs/concepts/configuration/secret/)
