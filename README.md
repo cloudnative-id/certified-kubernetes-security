@@ -7,7 +7,7 @@ This exam is coming soon in November 2020. CNCF provides us with CKS curriculum 
 
 ### 10% - [Cluster Setup]()
 1. [Use Network security policies to restrict cluster level access]()
-2. [Use CIS benchmark to review the security configuration of Kubernetes components (etcd, kubelet, kubedns, kubeapi)]()
+2. [Use CIS benchmark to review the security configuration of Kubernetes components (etcd, kubelet, kubedns, kubeapi)](https://cloud.google.com/kubernetes-engine/docs/concepts/cis-benchmarks)
 3. [Properly set up Ingress objects with security control]()
 4. [Protect node metadata and endpoints]()
 5. [Minimize use of, and access to, GUI elements]()
@@ -26,9 +26,13 @@ This exam is coming soon in November 2020. CNCF provides us with CKS curriculum 
 4. [Appropriately use kernel hardening tools such as AppArmor, seccomp]()
 
 ### 20% - [Minimize Microservice Vulnerabilities]()
-
 1. [Setup appropriate OS level security domains e.g. using PSP, OPA, security contexts]()
+   * [PSP (Pod Security Policy] (https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
+   * [OPA (Open Policy Agent)] ()
+   * [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 2. [Manage kubernetes secrets]()
+   * [Concept](https://kubernetes.io/docs/concepts/configuration/secret/)
+   * [Task](https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/)
 3. [Use container runtime sandboxes in multi-tenant environments (e.g. gvisor, kata containers)]()
 4. [Implement pod to pod encryption by use of mTLS]()
 
@@ -39,7 +43,6 @@ This exam is coming soon in November 2020. CNCF provides us with CKS curriculum 
 4. [Scan images for known vulnerabilities]()
 
 ### 20% - [Monitoring, Logging and Runtime Security]()
-
 1. [Perform behavioral analytics of syscall process and file activities at the host and container level to detect malicious activities]()
 2. [Detect threats within physical infrastructure, apps, networks, data, users and workloads]()
 3. [Detect all phases of attack regardless where it occurs and how it spreads]()
