@@ -28,7 +28,11 @@ This exam is coming soon in November 2020. CNCF provides us with CKS curriculum 
 ### 20% - [Minimize Microservice Vulnerabilities]()
 1. [Setup appropriate OS level security domains e.g. using PSP, OPA, security contexts]()
    * [PSP (Pod Security Policy)](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)
-   * [OPA (Open Policy Agent)]()
+   * OPA (Open Policy Agent)
+     * youtube: [Intro to Open Policy Agent (Kubecon 2019)](https://www.youtube.com/watch?v=Lca5u_ODS5s) - Torin Sandall
+     * [Rego Policy Language Reference](https://www.openpolicyagent.org/docs/latest/policy-language/) and [Rego Playground](https://play.openpolicyagent.org/)
+     * youtube: [Intro to Gatekeeper (Kubecon 2019)](https://www.youtube.com/watch?v=Yup1FUc2Qn0) - Rita Zhang & Max Smythe
+     * [Gatekeeper tutorial](https://katacoda.com/austinheiman/scenarios/open-policy-agent-gatekeeper) - Katacoda
    * [Security Contexts](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 2. [Manage kubernetes secrets]()
    * [Concept](https://kubernetes.io/docs/concepts/configuration/secret/)
