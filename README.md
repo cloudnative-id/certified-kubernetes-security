@@ -15,7 +15,7 @@ This exam is coming soon in November 2020. CNCF provides us with CKS curriculum 
 
 ### 15% - [Cluster Hardening]()
 1. [Restrict access to Kubernetes API]()
-2. [Use Role Based Access Controls to minimize exposure]()
+2. [Use Role Based Access Controls to minimize exposure](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 3. [Exercise caution in using service accounts e.g. disable defaults, minimize permissions on newly created ones]()
 4. [Update Kubernetes frequently]()
 
